@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 6rem 6rem 1rem 6rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid gray;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.img-profile {
+    width: 5rem;
+    height: 5rem;
+    margin-right: 1rem;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.profile-name {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2F3030;
+}
+
+.profile-information span {
+    font-size: .9rem;
+    color: gray;
+}
+
+.btn {
+    background-color: #2F3030;
+    border: none;
+    color: #fff;
+    padding: .8rem 1.8rem;
+}
+
+.btn i{
+    padding-right: 5px;
+}
+
+.menu {
+    padding: 0 6rem;
+    margin-bottom: 2.5rem;
+}
+.menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 1rem;
+} 
+
+.menu ul li a{
+    text-decoration: none;
+    color: #939794;
+} 
+
+.menu ul li:first-child a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #2F3030;
+} 
+
+.insights {
+    display: flex;
+    flex-direction: column;
+    padding: 0 6rem;
+}
+
+.filter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.insight {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+}
+
+.card-insight {
+    border: 1px #939794 solid;
+    padding: 1rem;
+    display: flex;
+    border-radius: 1rem;
+    box-shadow: 0 4px 4px -3px #4c4c4d38;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.insight-value {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.card-statistic {
+    color: rgb(81, 238, 186);
+    font-weight: bold;
+    margin-bottom: auto;
+}
+
+.insights .card-insight:first-child {
+    background-color: #2F3030;
+    color: #fff;
+}
+
+.right-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-insight a {
+    text-decoration: none;
+    color: white;
+}
+
